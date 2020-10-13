@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ctlg:Catalog xmlns:ctlg="http://www.stonerdrinks.ru/Catalog" updatedAt="2016-05-01T09:30:47Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:th="http://www.thymeleaf.org" xsi:schemaLocation="http://www.stonerdrinks.ru/Catalog Catalog.xsd">
+
+     <ctlg:Drink xmlns:drnk="http://www.stonerdrinks.ru/Catalog/Drinks" inStock="" th:attr="inStock=${stock}" >
+
+           <drnk:Code base="" inStock="" th:attr="base=${base},inStock=${stocx}">09-418</drnk:Code >
+
+           <drnk:Type th:text="${name}"></drnk:Type>
+
+           <drnk:Name language="en">Valdespino Olorosoro Solera 1842</drnk:Name>
+
+           <drnk:Name language="ru">Вальдеспино Олоросо Солера 1842</drnk:Name>
+
+           <drnk:MadeIn>Испания</drnk:MadeIn>
+
+           <drnk:MadeAt>2010-08-12</drnk:MadeAt>
+
+           <drnk:Volume>0.75</drnk:Volume>
+
+           <drnk:Strength>20</drnk:Strength>
+
+           <drnk:Price>2086.00</drnk:Price>
+
+           <drnk:Description>Вальдеспино Олоросо Солера 1842 (Valdespino Oloroso Solera 1842) производится путем смешения вин, сделанных из винограда, собираемого на виноградниках Macharnudo и Carrascal. Рекомендуется в качестве аперитива и как дополнение к мясу, дичи, к соленым и голубым сырам.</drnk:Description>
+
+           <drnk:Images>
+
+                <drnk:Url>http://www.alcodream.ru/products_pictures/1056.jpg</drnk:Url>
+
+           </drnk:Images>
+
+     </ctlg:Drink>
+
+</ctlg:Catalog>
